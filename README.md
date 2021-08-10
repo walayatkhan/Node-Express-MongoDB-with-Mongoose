@@ -21,7 +21,8 @@ This is a Node, Express, MongoDB, and Mongoose demo application with various fea
 
 ## Installation
 
-- `git clone https://github.com/walayatkhan/Node-Express-MongoDB-with-Mongoose.git`
+- `git clone https://github.com/walayatkhan/Node-Express-MongoDB-with-Mongoose.`
+`git`
 - `cd Node-Express-MongoDB-with-Mongoose`
 - `npm install`
 - replace the mongodb url in services/db-connections.js
