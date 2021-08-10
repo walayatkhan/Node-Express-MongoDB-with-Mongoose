@@ -17,7 +17,7 @@ This is a Node, Express, MongoDB, and Mongoose demo application with various fea
 
 - [node & npm](https://nodejs.org/en/)
 - [git](https://www.robinwieruch.de/git-essential-commands/)
-- [mongodb] (https://www.mongodb.com/)
+- [mongodb](https://www.mongodb.com/)
 
 ## Installation
 
