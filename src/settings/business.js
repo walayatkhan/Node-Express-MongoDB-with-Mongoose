@@ -32,9 +32,7 @@ class Business {
     }
     async update(id, data) {
         try {
-
             return await Settings.update({ _id: id }, data);
-
         } catch (e) { return e; }
     }
 

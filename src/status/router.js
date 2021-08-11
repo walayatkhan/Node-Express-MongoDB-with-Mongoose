@@ -1,5 +1,4 @@
 const config = require('../configuration/config');
-
 const router = require('express').Router();
 
 router.get('/', (req, res) => {
