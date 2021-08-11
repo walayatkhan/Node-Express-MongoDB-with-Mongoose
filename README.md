@@ -26,7 +26,7 @@ This is a Node, Express, MongoDB, and Mongoose demo application with various fea
 - `cd Node-Express-MongoDB-with-Mongoose`
 - `npm install`
 - replace the mongodb url in services/db-connections.js
-- `npm start` or `node server.js`
+- `npm start` or `node ./src/server.js`
 - optional: include _.env_ in your _.gitignore_
 
 ### Well Structured Routes

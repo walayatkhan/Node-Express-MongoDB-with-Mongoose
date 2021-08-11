@@ -1,6 +1,6 @@
 const mongoose = require('mongoose');
 
-const DB_URL = 'mongodb+srv://dbNameHere:PasswordHere@UsernameHere.qlc2g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
+const DB_URL = 'mongodb+srv://ecommerce:XVxKkcgYus9@ecommerce.qlc2g.mongodb.net/myFirstDatabase?retryWrites=true&w=majority';
 
 
 function connectToDB() {
