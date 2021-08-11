@@ -1,16 +1,13 @@
 
 const { Users } = require('../mongoose');
 
-
 class Business {
 
     async getAll() {
         try {
             let result = await Users.getAll();
             return result;
-        } catch (e) {
-            return e;
-        }
+        } catch (e) { return e; }
     }
     async findOne(id) {
         try {
@@ -25,9 +22,7 @@ class Business {
             let result = await Users.save(data);
             return { result };
         }
-        catch (e) {
-            return e;
-        }
+        catch (e) { return e; }
     }
     async updateUser(id, data) {
         try {
@@ -42,9 +37,7 @@ class Business {
             let result = await Users.delete({ _id: id });
             return { result };
         }
-        catch (e) {
-            console.log(e);
-        }
+        catch (e) { console.log(e); }
     }
 }
 

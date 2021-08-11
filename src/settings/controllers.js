@@ -1,7 +1,5 @@
 const businessObject = require('./business');
 
-
-
 async function getAll(req, res) {
     try {
         const result = await businessObject.getAll();
